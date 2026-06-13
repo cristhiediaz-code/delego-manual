@@ -121,13 +121,13 @@ Cada sección/módulo sigue esta estructura:
    9.3 Filtros (Equipo/Agentes/Tipos/Desde-Hasta) con rango histórico
    9.4 Lectura e interpretación
    [Tip clave: filtrar rango pasado amplio para poblar gráficos]
-10. Notificaciones al cliente                    ⏳ PENDIENTE
-    10.1 ¿Qué se puede notificar?
-    10.2 Crear y configurar una notificación
-    10.3 Condiciones
-    10.4 Adjuntar reportes a notificaciones
-    10.5 Probar antes de activar
-    10.6 Links de tracking y ETA
+10. Notificaciones al cliente                    ✅ REDACTADA (solo Notificaciones BETA; la clásica se deprecará)
+    10.1 ¿Qué se puede notificar? (8 estados x Email/Webhook/WhatsApp)
+    10.2 Crear/configurar (editor 4 pestañas + Campos Dinámicos)
+    10.3 Condiciones (Filtros: tipo/equipo/agente/prioridad/modo/cliente)
+    10.4 Adjuntar reportes (hasta 5, desde Reportes Personalizados)
+    10.5 Probar antes de activar (botón enviar + toggle activo)
+    10.6 Destinatarios + links de tracking/ETA (campo dinámico)
 11. Reportes                                     ⏳ PENDIENTE
     11.1 Reportes disponibles
     11.2 Generar bajo demanda
