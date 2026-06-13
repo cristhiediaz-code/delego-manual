@@ -128,12 +128,12 @@ Cada sección/módulo sigue esta estructura:
     10.4 Adjuntar reportes (hasta 5, desde Reportes Personalizados)
     10.5 Probar antes de activar (botón enviar + toggle activo)
     10.6 Destinatarios + links de tracking/ETA (campo dinámico)
-11. Reportes                                     ⏳ PENDIENTE
-    11.1 Reportes disponibles
-    11.2 Generar bajo demanda
-    11.3 Programar reportes recurrentes
-    11.4 Ventana de descargas y reportes asíncronos
-    11.5 Personalizar plantillas
+11. Reportes                                     🔶 REDACTADA (11.3/11.4 por confirmar; personalizados solo BETA)
+    11.1 Reportes disponibles (Estándar 4 categorías + Personalizados + BETA) ✅
+    11.2 Generar bajo demanda (filtros + columnas + Cargar Datos + Exportar) ✅
+    11.3 Programar reportes recurrentes          ⏳ (no se halló programador)
+    11.4 Ventana de descargas / asíncronos       ⏳ (no se halló bandeja)
+    11.5 Personalizar plantillas (BETA: elegir formulario, descargar/subir) ✅
 12. Recurrencias y tareas planificadas a futuro  ⏳ PENDIENTE
     12.1 Crear una recurrencia
     12.2 Vista de tareas planificadas
