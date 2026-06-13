@@ -104,45 +104,45 @@ Cada sección/módulo sigue esta estructura:
    6.7 Rutas recurrentes (nuevo)                 ✅ (regla: solo con tareas sin recurrencia propia)
    [Reglas clave: agente del mismo equipo; ventana/capacidad; partir de hub cercano]
    [Técnica usada: Edición Masiva para alinear equipo tareas↔agente, luego optimizar]
-8. Monitoreo en tiempo real                      ✅ REDACTADA (exploración en vivo)
-   8.1 Mapa operativo (CAPAS: Equipos, Tareas Ejecutadas)
-   8.2 Estado de agentes (tarjeta: último reporte, estatus, coords)
-   8.3 Alertas y agentes inalcanzables (vía Último reporte)
-   8.4 Acciones rápidas (Ver Estatus/Calendario del Agente + menú contextual)
-9. Dashboard                                     ✅ REDACTADA (exploración en vivo)
-   9.1 ¿Qué muestra? / 9.2 6 KPIs + 7 gráficos documentados
-   9.3 Filtros (Equipo/Agentes/Tipos/Desde-Hasta) con rango histórico
-   9.4 Lectura e interpretación
+7. Monitoreo en tiempo real                      ✅ REDACTADA (exploración en vivo)
+   7.1 Mapa operativo (CAPAS: Equipos, Tareas Ejecutadas)
+   7.2 Estado de agentes (tarjeta: último reporte, estatus, coords)
+   7.3 Alertas y agentes inalcanzables (vía Último reporte)
+   7.4 Acciones rápidas (Ver Estatus/Calendario del Agente + menú contextual)
+8. Dashboard                                     ✅ REDACTADA (exploración en vivo)
+   8.1 ¿Qué muestra? / 8.2 6 KPIs + 7 gráficos documentados
+   8.3 Filtros (Equipo/Agentes/Tipos/Desde-Hasta) con rango histórico
+   8.4 Lectura e interpretación
    [Tip clave: filtrar rango pasado amplio para poblar gráficos]
-10. Notificaciones al cliente                    ✅ REDACTADA (solo Notificaciones BETA; la clásica se deprecará)
-    10.1 ¿Qué se puede notificar? (8 estados x Email/Webhook/WhatsApp)
-    10.2 Crear/configurar (editor 4 pestañas + Campos Dinámicos)
-    10.3 Condiciones (Filtros: tipo/equipo/agente/prioridad/modo/cliente)
-    10.4 Adjuntar reportes (hasta 5, desde Reportes Personalizados)
-    10.5 Probar antes de activar (botón enviar + toggle activo)
-    10.6 Destinatarios + links de tracking/ETA (campo dinámico)
-11. Reportes                                     🔶 REDACTADA (11.3/11.4 por confirmar; personalizados solo BETA)
-    11.1 Reportes disponibles (Estándar 4 categorías + Personalizados + BETA) ✅
-    11.2 Generar bajo demanda (filtros + columnas + Cargar Datos + Exportar) ✅
-    11.3 Programar reportes recurrentes          ⏳ (no se halló programador)
-    11.4 Ventana de descargas / asíncronos       ⏳ (no se halló bandeja)
-    11.5 Personalizar plantillas (BETA: elegir formulario, descargar/subir) ✅
-12. Recurrencias y tareas planificadas a futuro  ✅ REDACTADA (exploración en vivo)
-    12.1 Crear recurrencia (Modo: Diaria/Semanal/Mensual/Anual/Personalizar)
-    12.2 Vista Tareas Recurrentes + tareas planificadas (7/30/60 días/venc.)
-    12.3 Edición y eliminación (individual y masiva)
-    12.4 Chips: Vencidas / Por Vencer / Activas
-13. Auditoría y trazabilidad                     ✅ REDACTADA (exploración en vivo)
-    13.1 Event log: Historial por tarea + Logs de Eventos (CREAR/ACTUALIZAR/ELIMINAR)
-    13.2 Planificadas no ejecutadas (reportes Eficiencia planif vs ejec)
-    13.3 Buenas prácticas de trazabilidad
-14. Integraciones                                ✅ REDACTADA (exploración en vivo)
-    14.1 Zoho/externos vía API + Webhook (no hay tab Zoho dedicado)
-    14.2 Power BI (vista Admin/Despachador y Cliente + endpoint reportes)
-    14.3 Links de tracking externos (enlace seguimiento + ETA)
-    14.4 Coordenadas de ejecución para reportes
+9. Notificaciones al cliente                     ✅ REDACTADA (solo Notificaciones BETA; la clásica se deprecará)
+   9.1 ¿Qué se puede notificar? (8 estados x Email/Webhook/WhatsApp)
+   9.2 Crear/configurar (editor 4 pestañas + Campos Dinámicos)
+   9.3 Condiciones (Filtros: tipo/equipo/agente/prioridad/modo/cliente)
+   9.4 Adjuntar reportes (hasta 5, desde Reportes Personalizados)
+   9.5 Probar antes de activar (botón enviar + toggle activo)
+   9.6 Destinatarios + links de tracking/ETA (campo dinámico)
+10. Reportes                                     🔶 REDACTADA (10.3/10.4 por confirmar; personalizados solo BETA)
+    10.1 Reportes disponibles (Estándar 4 categorías + Personalizados + BETA) ✅
+    10.2 Generar bajo demanda (filtros + columnas + Cargar Datos + Exportar) ✅
+    10.3 Programar reportes recurrentes          ⏳ (no se halló programador)
+    10.4 Ventana de descargas / asíncronos       ⏳ (no se halló bandeja)
+    10.5 Personalizar plantillas (BETA: elegir formulario, descargar/subir) ✅
+11. Recurrencias y tareas planificadas a futuro  ✅ REDACTADA (exploración en vivo)
+    11.1 Crear recurrencia (Modo: Diaria/Semanal/Mensual/Anual/Personalizar)
+    11.2 Vista Tareas Recurrentes + tareas planificadas (7/30/60 días/venc.)
+    11.3 Edición y eliminación (individual y masiva)
+    11.4 Chips: Vencidas / Por Vencer / Activas
+12. Auditoría y trazabilidad                     ✅ REDACTADA (exploración en vivo)
+    12.1 Event log: Historial por tarea + Logs de Eventos (CREAR/ACTUALIZAR/ELIMINAR)
+    12.2 Planificadas no ejecutadas (reportes Eficiencia planif vs ejec)
+    12.3 Buenas prácticas de trazabilidad
+13. Integraciones                                ✅ REDACTADA (exploración en vivo)
+    13.1 Zoho/externos vía API + Webhook (no hay tab Zoho dedicado)
+    13.2 Power BI (vista Admin/Despachador y Cliente + endpoint reportes)
+    13.3 Links de tracking externos (enlace seguimiento + ETA)
+    13.4 Coordenadas de ejecución para reportes
     [+ Geotab BETA]
-15. Solución de problemas y preguntas frecuentes ✅ REDACTADA (consolida validaciones/casos de borde)
+14. Solución de problemas y preguntas frecuentes ✅ REDACTADA (consolida validaciones/casos de borde)
 
 Apéndice A. Glosario de términos
 Apéndice B. Tabla de estados y colores
@@ -401,7 +401,7 @@ Refleja estas relaciones:
 ### Estructura del manual
 - Sección 1 y 2 = onboarding (primer día)
 - Sección 3 = referencia detallada de configuración
-- Secciones 4-15 = uso día a día + temas avanzados
+- Secciones 4-14 = uso día a día + temas avanzados
 
 ### Diferencia entre Sección 2.3 (onboarding) y Sección 3 (referencia)
 | Sección 2.3 | Sección 3 |
@@ -412,7 +412,7 @@ Refleja estas relaciones:
 
 ### Sobre el Maestro de Rutas
 - Descartado del manual a pedido del usuario (no se documenta).
-- La numeración del índice salta de la Sección 6 a la 8.
+- El índice se reenumeró de forma correlativa (1-14) tras eliminar esta sección.
 
 ### Sobre los Casos de uso por industria
 - Inicialmente considerados como Sección 14

@@ -1,11 +1,11 @@
-# 11. Reportes
+# 10. Reportes
 
 > ✅ Exploración en vivo completada el 13/06/2026.
 > 📝 Los reportes se dividen en **Estándar de Delego** y **Personalizados**. De los personalizados, este manual documenta el flujo **BETA** (los personalizados clásicos están en proceso de **deprecación**).
 
 El módulo **Reportes** (menú lateral → **Reportes**) permite *"consultar, analizar y exportar información operativa y de desempeño para apoyar la toma de decisiones"*. Tiene tres bloques: **Reportes Estándar**, **Reportes Personalizados** (clásicos) y **Reportes Personalizados BETA**.
 
-## 11.1 Reportes disponibles
+## 10.1 Reportes disponibles
 
 ### Reportes Estándar de Delego
 Vienen predefinidos, agrupados en **4 categorías**:
@@ -20,14 +20,14 @@ Vienen predefinidos, agrupados en **4 categorías**:
 ### Reportes Personalizados (clásicos)
 Reportes en **Formato Word (.docx)** y **Formato Excel (.xlsx)** diseñados a medida. *"Pueden utilizarse como adjuntos en notificaciones o descargarse bajo demanda."*
 
-> ⚠️ **Advertencia:** Este bloque clásico está en proceso de **deprecación**. Para nuevos reportes personalizados, usa **Reportes Personalizados BETA** (§11.5).
+> ⚠️ **Advertencia:** Este bloque clásico está en proceso de **deprecación**. Para nuevos reportes personalizados, usa **Reportes Personalizados BETA** (§10.5).
 
 ### Reportes Personalizados BETA
-La versión vigente de reportes a medida. Se organizan **por tipo de tarea / formulario**, con buscador, y son los que se adjuntan a las notificaciones BETA (§10.4).
+La versión vigente de reportes a medida. Se organizan **por tipo de tarea / formulario**, con buscador, y son los que se adjuntan a las notificaciones BETA (§9.4).
 
 [CAPTURA: reportes_vista_general.png]
 
-## 11.2 Generar un reporte estándar bajo demanda
+## 10.2 Generar un reporte estándar bajo demanda
 
 1. Haz clic en el nombre de un reporte estándar (ej. **Resumen de tareas por fecha**). Se abre un modal con dos pestañas: **Filtros y campos de informe** y **Resultado**.
 2. En **Filtros y campos de informe**:
@@ -43,7 +43,7 @@ La versión vigente de reportes a medida. Se organizan **por tipo de tarea / for
 
 > 💡 **Tip:** Selecciona solo las columnas que necesitas antes de Cargar Datos: un reporte más liviano se genera y exporta más rápido, y es más fácil de leer.
 
-## 11.5 Crear/personalizar reportes (Reportes Personalizados BETA)
+## 10.5 Crear/personalizar reportes (Reportes Personalizados BETA)
 
 Los reportes personalizados BETA se diseñan a partir de una **plantilla** asociada a un **formulario / tipo de tarea**.
 
@@ -57,7 +57,7 @@ Los reportes personalizados BETA se diseñan a partir de una **plantilla** asoci
 
 Una vez creado, el reporte BETA aparece bajo su tipo de tarea con acciones de **descargar**, **configurar** (engranaje) y **expandir**. Desde ahí queda disponible para:
 - **Descargarse bajo demanda**.
-- **Adjuntarse a notificaciones BETA** (§10.4).
+- **Adjuntarse a notificaciones BETA** (§9.4).
 
 > 💡 **Tip:** Como los reportes BETA se asocian a un formulario/tipo de tarea, crea uno por cada tipo de comprobante que necesites (ej. comprobante de entrega, acta de visita) y reutilízalo en las notificaciones de ese tipo de tarea.
 

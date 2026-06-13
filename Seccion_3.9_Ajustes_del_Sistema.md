@@ -56,7 +56,7 @@ Al pie: **Idioma de notificaciones** (ej. Español), independiente del idioma de
 
 Versión avanzada (en BETA) de las notificaciones personalizadas por correo según el estado de la tarea. Muestra, por cada estado, **cuántas notificaciones están activas** (ej. "2 Activas", "3 Activas") y un botón de configuración para gestionarlas. Incluye además la categoría **RECORDATORIOS**.
 
-> 🔜 **Próximamente:** Esta pestaña está marcada como BETA; su comportamiento puede cambiar. Se documenta a nivel general; el detalle de creación de notificaciones se cubre en la Sección 10 (Notificaciones al cliente).
+> 🔜 **Próximamente:** Esta pestaña está marcada como BETA; su comportamiento puede cambiar. Se documenta a nivel general; el detalle de creación de notificaciones se cubre en la Sección 9 (Notificaciones al cliente).
 
 ---
 
@@ -137,6 +137,6 @@ Integración con telemática de flota: **Base de Datos**, **Usuario**, **Contras
 ## Pendientes de exploración (iteración futura)
 
 - [ ] Plantilla del correo de notificación (ícono junto a la columna Email).
-- [ ] Flujo completo de configuración de una notificación en Notificaciones BETA (Sección 10).
+- [ ] Flujo completo de configuración de una notificación en Notificaciones BETA (Sección 9).
 - [ ] Detalle de "Motivos de Retroceso en la Tarea" (cómo se agregan).
 - [ ] Capturas de pantalla definitivas.

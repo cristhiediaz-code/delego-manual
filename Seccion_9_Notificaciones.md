@@ -1,9 +1,9 @@
-# 10. Notificaciones al cliente
+# 9. Notificaciones al cliente
 
 > ✅ Exploración en vivo completada el 13/06/2026.
 > 📝 Este manual documenta el módulo **Notificaciones BETA**, que es el flujo vigente para notificaciones al cliente. La pestaña "Notificaciones" (clásica) está en proceso de **deprecación** y no se documenta como flujo oficial.
 
-## 10.1 ¿Qué se puede notificar?
+## 9.1 ¿Qué se puede notificar?
 
 Delego puede enviar **notificaciones automáticas por correo** al cliente (y a quien definas) cada vez que una tarea **cambia de estado**. Así el cliente se entera, por ejemplo, de que su entrega fue asignada, va en camino o se completó, sin que nadie tenga que escribirle manualmente.
 
@@ -29,7 +29,7 @@ Verás la pantalla **Notificaciones Personalizadas (BETA)**: una fila por estado
 
 [CAPTURA: notif_beta_matriz_estados.png]
 
-## 10.2 Crear y configurar una notificación
+## 9.2 Crear y configurar una notificación
 
 1. En Notificaciones BETA, haz clic en el **engranaje** del estado que quieres notificar (ej. **COMPLETADA**).
 2. Se abre **Configuración de notificaciones - [ESTADO]** con la lista de notificaciones de ese estado. Cada una tiene un **toggle** (activar/desactivar) y opciones: **configurar** (engranaje), **duplicar** (copiar), **enviar/probar** (avión) y **eliminar** (papelera).
@@ -42,15 +42,15 @@ Verás la pantalla **Notificaciones Personalizadas (BETA)**: una fila por estado
 Define el contenido del correo:
 - **Asunto de Correo** (obligatorio).
 - **Editor de texto enriquecido** (negrita, cursiva, listas, alineación, enlaces, imágenes, color, e incluso edición de **código HTML**).
-- **Campos Dinámicos**: menú para insertar datos de la tarea en el asunto o el cuerpo, de modo que cada correo se personaliza solo. Campos disponibles: **Identificador, Nombre de la tarea, Instrucciones, Fecha planificada + hora, Modo de Tarea, Prioridad, Valor 1…** (y, según la descripción, también ventana de atención y **enlace de seguimiento**, ver §10.6).
+- **Campos Dinámicos**: menú para insertar datos de la tarea en el asunto o el cuerpo, de modo que cada correo se personaliza solo. Campos disponibles: **Identificador, Nombre de la tarea, Instrucciones, Fecha planificada + hora, Modo de Tarea, Prioridad, Valor 1…** (y, según la descripción, también ventana de atención y **enlace de seguimiento**, ver §9.6).
 
 [CAPTURA: notif_beta_formato_correo.png]
 
-5. Completa las demás pestañas (§10.3, §10.4, §10.6) y haz clic en **Guardar**.
+5. Completa las demás pestañas (§9.3, §9.4, §9.6) y haz clic en **Guardar**.
 
 > 💡 **Tip:** Usa los Campos Dinámicos en lugar de texto fijo: así un mismo formato sirve para todas las tareas y el cliente siempre ve sus datos correctos.
 
-## 10.3 Condiciones (pestaña Filtros)
+## 9.3 Condiciones (pestaña Filtros)
 
 La pestaña **Filtros** define **cuándo** se dispara esta notificación, además del estado. Puedes acotarla por:
 
@@ -67,15 +67,15 @@ Así puedes tener, por ejemplo, un correo de "COMPLETADA" distinto para el tipo 
 
 [CAPTURA: notif_beta_filtros.png]
 
-## 10.4 Adjuntar reportes a notificaciones (pestaña Adjuntos)
+## 9.4 Adjuntar reportes a notificaciones (pestaña Adjuntos)
 
 La pestaña **Adjuntos** permite **adjuntar hasta 5 reportes** al correo de la notificación (ej. comprobante de entrega, reporte fotográfico).
 
-> ⚠️ **Advertencia:** Los reportes deben estar **creados previamente en Reportes Personalizados** (Sección 11) y solo aparecerán en la lista los **asociados al tipo de tarea** seleccionado en Filtros. Si no ves tu reporte, revisa que exista y esté asociado a ese tipo de tarea.
+> ⚠️ **Advertencia:** Los reportes deben estar **creados previamente en Reportes Personalizados** (Sección 10) y solo aparecerán en la lista los **asociados al tipo de tarea** seleccionado en Filtros. Si no ves tu reporte, revisa que exista y esté asociado a ese tipo de tarea.
 
 [CAPTURA: notif_beta_adjuntos.png]
 
-## 10.5 Probar antes de activar
+## 9.5 Probar antes de activar
 
 Antes de dejar una notificación activa para todos los clientes, **pruébala**:
 
@@ -84,7 +84,7 @@ Antes de dejar una notificación activa para todos los clientes, **pruébala**:
 
 > 💡 **Tip:** Envíate la prueba a ti mismo (agrégate en Destinatarios) y revisa que los Campos Dinámicos se reemplacen bien y que los adjuntos lleguen, antes de activarla para el cliente real.
 
-## 10.6 Destinatarios, links de tracking y ETA
+## 9.6 Destinatarios, links de tracking y ETA
 
 ### Destinatarios (pestaña Destinatarios)
 Define **quién recibe** el correo:
@@ -95,7 +95,7 @@ Define **quién recibe** el correo:
 [CAPTURA: notif_beta_destinatarios.png]
 
 ### Links de tracking y ETA
-Para que el cliente pueda **seguir su tarea en tiempo real**, inserta el **enlace de seguimiento** desde los **Campos Dinámicos** (§10.2) en el cuerpo del correo. Ese link lleva a una página de tracking con la ubicación/estado y la **hora estimada de llegada (ETA)**.
+Para que el cliente pueda **seguir su tarea en tiempo real**, inserta el **enlace de seguimiento** desde los **Campos Dinámicos** (§9.2) en el cuerpo del correo. Ese link lleva a una página de tracking con la ubicación/estado y la **hora estimada de llegada (ETA)**.
 
 > 💡 **Tip:** Combina el enlace de seguimiento con un correo de estado **EN TRÁNSITO**: el cliente recibe el aviso "tu pedido va en camino" con el botón para rastrearlo en vivo.
 

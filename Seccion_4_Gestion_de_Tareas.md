@@ -124,7 +124,7 @@ Cada fila del listado tiene, en **Opciones**, estos botones:
 |---|---|
 | **Editar tarea** (lápiz) | Abre el modal Detalle de Tareas con los datos cargados. |
 | **Ver detalles** (lupa) | Vista de **solo lectura** con tres columnas (Tarea / Cliente / Ejecución) y el ID completo de la tarea. |
-| **Ver eventos de la tarea** (reloj) | Abre el **Historial de Eventos** (ver §4.4 y §13). |
+| **Ver eventos de la tarea** (reloj) | Abre el **Historial de Eventos** (ver §4.4 y §12). |
 | **Clonar Tarea** | Crea una copia de la tarea. |
 | **Cancelar Tarea** | Cambia el estado a **Cancelada** (ver §4.4). |
 | **Eliminar Tarea** | Borra la tarea del sistema. |
@@ -166,7 +166,7 @@ El estado de una tarea se ve en la columna **Estatus** y en los **chips superior
 
 ### Historial de Eventos (trazabilidad)
 
-El botón **Ver eventos de la tarea** (reloj) abre el **Historial de Eventos**: una línea de tiempo de cada cambio de estado, con **estado, fecha/hora y autor** (ej. "NO ASIGNADO — 31/05/2026 17:18 — Cristhie Y Díaz (SYSTEM)"). Incluye botón para **exportar** el historial. Es la base de la auditoría (ver Sección 13).
+El botón **Ver eventos de la tarea** (reloj) abre el **Historial de Eventos**: una línea de tiempo de cada cambio de estado, con **estado, fecha/hora y autor** (ej. "NO ASIGNADO — 31/05/2026 17:18 — Cristhie Y Díaz (SYSTEM)"). Incluye botón para **exportar** el historial. Es la base de la auditoría (ver Sección 12).
 
 [CAPTURA: modal_historial_eventos.png]
 

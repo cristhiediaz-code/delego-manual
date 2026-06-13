@@ -1,10 +1,10 @@
-# 8. Monitoreo en tiempo real
+# 7. Monitoreo en tiempo real
 
 > ✅ Exploración en vivo completada el 13/06/2026.
 
 El monitoreo en tiempo real ocurre en la pantalla **Operaciones** (menú lateral → **Operaciones**), la misma desde donde se asigna y planifica (§5 y §6). Combina el **listado de tareas**, el **mapa operativo** y paneles laterales. Aquí el dispatcher ve dónde está cada agente, en qué estado, y resuelve excepciones sobre la marcha.
 
-## 8.1 Mapa operativo
+## 7.1 Mapa operativo
 
 El mapa muestra, en vivo:
 - **Pines de tareas** — cada tarea geocodificada, con color según su estado (§4.4).
@@ -23,7 +23,7 @@ El control **CAPAS** (abajo a la izquierda) permite encender/apagar capas sobre 
 
 > 💡 **Tip:** Enciende la capa **Equipos** para ver visualmente si una tarea cayó dentro o fuera de la zona de su equipo, y la capa **Tareas Ejecutadas** para detectar concentraciones de actividad.
 
-## 8.2 Estado de agentes y vehículos
+## 7.2 Estado de agentes y vehículos
 
 Al hacer **clic en el pin de un agente** en el mapa, se abre su **tarjeta de estado en tiempo real**:
 
@@ -38,7 +38,7 @@ Al hacer **clic en el pin de un agente** en el mapa, se abre su **tarjeta de est
 
 El panel lateral **Recursos** (pestaña en el borde derecho) lista todos los agentes y vehículos con su capacidad, equipos, habilidades y carga de tareas, como vista consolidada.
 
-## 8.3 Alertas y agentes inalcanzables
+## 7.3 Alertas y agentes inalcanzables
 
 El campo **Último reporte** es la clave para detectar **agentes inalcanzables**: si la fecha/hora del último ping es muy antigua respecto a la actual, el dispositivo del agente no está reportando (app cerrada, sin señal, GPS apagado).
 
@@ -46,7 +46,7 @@ El campo **Último reporte** es la clave para detectar **agentes inalcanzables**
 
 > 📝 **Nota:** El **Estatus** (AVAILABLE, etc.) complementa la ubicación: un agente puede estar reportando posición pero no estar disponible para recibir trabajo.
 
-## 8.4 Acciones rápidas desde el monitoreo
+## 7.4 Acciones rápidas desde el monitoreo
 
 Desde la tarjeta de estado de un agente, el menú **...** (tres puntos) ofrece acciones rápidas:
 

@@ -1,10 +1,10 @@
-# 13. Auditoría y trazabilidad
+# 12. Auditoría y trazabilidad
 
 > ✅ Exploración en vivo completada el 13/06/2026.
 
 Delego registra **quién hizo qué y cuándo**, tanto a nivel de cada tarea como a nivel de la cuenta. Esto te permite reconstruir lo que pasó ante una queja, una incidencia o una auditoría.
 
-## 13.1 Registro de eventos (event log)
+## 12.1 Registro de eventos (event log)
 
 Hay dos niveles de registro de eventos:
 
@@ -38,24 +38,24 @@ Pulsa **Buscar** para cargar. La tabla muestra: **ID de Evento, Tipo de Evento, 
 
 > 💡 **Tip:** Para investigar "¿quién cambió esto?", filtra por **Tipo de Evento = ACTUALIZAR** y por **Usuario**, y acota el rango de fechas al día del incidente. La columna **Estado Anterior → Nuevo Estado** te dice exactamente qué cambió.
 
-## 13.2 Reporte de tareas planificadas no ejecutadas
+## 12.2 Reporte de tareas planificadas no ejecutadas
 
 Para detectar **tareas que se planificaron pero no se ejecutaron** (incumplimientos), Delego ofrece, en **Reportes → Eficiencia**:
 
 - **Resumen de tareas planificadas vs ejecutadas por ruta**
 - **Resumen de tareas planificadas vs ejecutadas por agente**
 
-Estos reportes comparan lo planificado contra lo realmente ejecutado en un rango de fechas, dejando ver las tareas que quedaron sin completar (la brecha entre ambas curvas también se ve en el Dashboard, §9.2 "Planificadas Vs Completadas").
+Estos reportes comparan lo planificado contra lo realmente ejecutado en un rango de fechas, dejando ver las tareas que quedaron sin completar (la brecha entre ambas curvas también se ve en el Dashboard, §8.2 "Planificadas Vs Completadas").
 
 Complementariamente:
-- En **Tareas Recurrentes** (§12.4), el chip **Vencidas** muestra recurrencias cuya vigencia terminó.
-- El modal **Tareas planificadas** (§12.2) anticipa las tareas futuras que el sistema generará.
+- En **Tareas Recurrentes** (§11.4), el chip **Vencidas** muestra recurrencias cuya vigencia terminó.
+- El modal **Tareas planificadas** (§11.2) anticipa las tareas futuras que el sistema generará.
 
 [CAPTURA: reporte_planificadas_vs_ejecutadas.png]
 
 > 📝 **Nota:** Genera estos reportes filtrando **Por Fecha Planificada** para evaluar el cumplimiento del plan del día/semana.
 
-## 13.3 Buenas prácticas de trazabilidad
+## 12.3 Buenas prácticas de trazabilidad
 
 - **Usa Cancelar en lugar de Eliminar** (§4.3): cancelar conserva la tarea con estado Cancelada y su historial; eliminar la borra y pierdes la trazabilidad.
 - **Activa "ID Delego para tareas"** (Settings → Settings Generales, §3.9): cada tarea recibe un identificador único, fácil de referenciar en soporte, reportes e integraciones.

@@ -1,16 +1,16 @@
-# 9. Dashboard (Tablero de Indicadores)
+# 8. Dashboard (Tablero de Indicadores)
 
 > ✅ Exploración en vivo completada el 13/06/2026 (con filtro de rango amplio para poblar los gráficos).
 
-## 9.1 ¿Qué muestra el Dashboard?
+## 8.1 ¿Qué muestra el Dashboard?
 
 El **Tablero de Indicadores** (menú lateral → **Tablero de Indicadores**) resume el desempeño de tu operación en un periodo: cuántas tareas hubo, cómo terminaron, por equipo, por agente, por prioridad y a lo largo del tiempo. Es la vista para gerencia y supervisión (no para operar tarea por tarea).
 
 En la cabecera, el ícono de **refrescar** (junto al título) recarga los datos.
 
-> 📝 **Nota:** Los gráficos reflejan el **rango de fechas filtrado**. Con el rango por defecto (solo el día actual) muchos gráficos de "ejecutadas" aparecen vacíos porque las tareas del día aún no se han completado. **Filtra un rango pasado amplio para ver datos históricos** (§9.3).
+> 📝 **Nota:** Los gráficos reflejan el **rango de fechas filtrado**. Con el rango por defecto (solo el día actual) muchos gráficos de "ejecutadas" aparecen vacíos porque las tareas del día aún no se han completado. **Filtra un rango pasado amplio para ver datos históricos** (§8.3).
 
-## 9.2 Indicadores principales
+## 8.2 Indicadores principales
 
 ### Tarjetas KPI (parte superior)
 
@@ -43,7 +43,7 @@ En la cabecera, el ícono de **refrescar** (junto al título) recarga los datos.
 
 > 💡 **Tip:** El gráfico **Planificadas Vs Completadas** es el más útil para detectar brechas de cumplimiento: cuando la línea Completada queda muy por debajo de la Planificada en una fecha, hubo tareas que no se ejecutaron.
 
-## 9.3 Filtros y rangos de tiempo
+## 8.3 Filtros y rangos de tiempo
 
 El panel **Filtros** (pestaña vertical **Búsqueda Avanzada** en el borde derecho) controla qué datos alimentan todo el tablero:
 
@@ -62,7 +62,7 @@ Pasos: ajusta los filtros → **Buscar** para aplicar (los gráficos se recalcul
 
 > 📝 **Nota:** El selector de fecha es un calendario: haz clic en el campo **Desde**, navega con las flechas o tocando el **año/mes** del encabezado para saltar rápido, y elige el día.
 
-## 9.4 Lectura e interpretación de los datos
+## 8.4 Lectura e interpretación de los datos
 
 - **Salud general:** mira primero las tarjetas KPI — un % alto de Completadas y Completadas a Tiempo indica buena operación; % altos de Rechazadas/Canceladas son señal de alerta.
 - **Dónde está el problema:** usa "por equipos" y "por agentes" para localizar qué equipo o agente concentra rechazos/cancelaciones.
