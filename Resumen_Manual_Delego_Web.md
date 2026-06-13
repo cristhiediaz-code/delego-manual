@@ -111,16 +111,16 @@ Cada sección/módulo sigue esta estructura:
    7.4 Rutas Planificadas
    7.5 Rutas en Proceso (vista en vivo)
    7.6 Rutas Ejecutadas
-8. Monitoreo en tiempo real                      ⏳ PENDIENTE
-   8.1 Mapa operativo
-   8.2 Estado de agentes y vehículos
-   8.3 Alertas y agentes inalcanzables
-   8.4 Acciones rápidas desde el monitoreo
-9. Dashboard                                     ⏳ PENDIENTE
-   9.1 ¿Qué muestra el Dashboard?
-   9.2 Indicadores principales
-   9.3 Filtros y rangos de tiempo
-   9.4 Lectura e interpretación de los datos
+8. Monitoreo en tiempo real                      ✅ REDACTADA (exploración en vivo)
+   8.1 Mapa operativo (CAPAS: Equipos, Tareas Ejecutadas)
+   8.2 Estado de agentes (tarjeta: último reporte, estatus, coords)
+   8.3 Alertas y agentes inalcanzables (vía Último reporte)
+   8.4 Acciones rápidas (Ver Estatus/Calendario del Agente + menú contextual)
+9. Dashboard                                     ✅ REDACTADA (exploración en vivo)
+   9.1 ¿Qué muestra? / 9.2 6 KPIs + 7 gráficos documentados
+   9.3 Filtros (Equipo/Agentes/Tipos/Desde-Hasta) con rango histórico
+   9.4 Lectura e interpretación
+   [Tip clave: filtrar rango pasado amplio para poblar gráficos]
 10. Notificaciones al cliente                    ⏳ PENDIENTE
     10.1 ¿Qué se puede notificar?
     10.2 Crear y configurar una notificación
