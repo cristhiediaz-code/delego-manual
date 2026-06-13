@@ -77,7 +77,10 @@ Cada sección/módulo sigue esta estructura:
    3.10 Usuarios web y permisos                  ✅
    3.11 Otros catálogos (Campos/Vistas Pers.,    ✅ (nuevo, no estaba en índice)
         Unidad de medidas, Marcas, Modelos)
-4. Gestión de tareas                             🔄 SIGUIENTE
+4. Gestión de tareas                             ✅ REDACTADA (exploración en vivo)
+   4.1 Crear manual / 4.2 Carga Masiva (XLSX)
+   4.3 Editar/duplicar/cancelar / 4.4 Estados+colores
+   4.5 Relacionadas/parciales / 4.6 On Hold / 4.7 Ítems
    4.1 Crear una tarea manualmente
    4.2 Crear tareas en lote (Bulk Load)
    4.3 Editar, duplicar y cancelar tareas
