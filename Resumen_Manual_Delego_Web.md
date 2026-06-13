@@ -149,7 +149,7 @@ Cada sección/módulo sigue esta estructura:
     14.3 Links de tracking externos (enlace seguimiento + ETA)
     14.4 Coordenadas de ejecución para reportes
     [+ Geotab BETA]
-15. Solución de problemas y preguntas frecuentes ⏳ PENDIENTE
+15. Solución de problemas y preguntas frecuentes ✅ REDACTADA (consolida validaciones/casos de borde)
 
 Apéndice A. Glosario de términos
 Apéndice B. Tabla de estados y colores
