@@ -1,7 +1,6 @@
 # 6. Planificación y optimización de rutas
 
-> ✅ Configuración del optimizador documentada en vivo el 12/06/2026.
-> ⚠️ Algunas vistas de **resultado** (ruta propuesta, indicadores y costos) quedaron parcialmente documentadas: en la cuenta demo las tareas cargadas pertenecen a un equipo sin agente disponible para rutear, lo que impidió completar una optimización de ejemplo. Se detallan con la información disponible y se marcan los pendientes.
+> ✅ Documentada en vivo el 12–13/06/2026, incluyendo una **ejecución completa del optimizador** con su resultado, indicadores y costos.
 
 ## 6.1 El planificador de rutas
 
@@ -19,7 +18,9 @@ Cuando una operación tiene muchas tareas que un mismo agente debe cubrir en un 
 5. Ajusta las palancas y haz clic en **Siguiente** para que el motor calcule la ruta.
 6. Revisa la ruta propuesta, sus indicadores y costos; ajústala si hace falta (§6.4–6.6) y **confirma** para asignarla.
 
-> ⚠️ **Advertencia (regla clave):** El o los **agentes/vehículos elegidos deben pertenecer al mismo equipo que las tareas**. Si no, Delego bloquea la optimización con el mensaje: *"No es posible crear Rutas — Parece que estás intentando crear una ruta con agentes/vehículos que no pertenece a los equipos de las tareas. Inténtalo nuevamente seleccionando otros agentes."* Verifica el equipo de las tareas (pestaña Tarea → Equipo) y elige un recurso de ese mismo equipo.
+> ⚠️ **Advertencia (regla clave):** El o los **agentes/vehículos elegidos deben pertenecer al mismo equipo que las tareas**. Si no, Delego bloquea la optimización con el mensaje: *"No es posible crear Rutas — Parece que estás intentando crear una ruta con agentes/vehículos que no pertenece a los equipos de las tareas. Inténtalo nuevamente seleccionando otros agentes."* Verifica el equipo de las tareas (pestaña Tarea → Equipo) y elige un recurso de ese mismo equipo. Si necesitas mover varias tareas a otro equipo de golpe, usa **Edición Masiva** (§5.4).
+
+> ⚠️ **Advertencia (ventana y capacidad):** Si el agente no alcanza a atender las tareas dentro de la jornada (su punto de partida está demasiado lejos, o el tiempo de viaje + servicio excede la ventana) o se supera su capacidad, verás: *"Las tareas que has seleccionado para crear esta ruta no pueden ser atendidas debido a que se encuentran fuera de la ventana de atención planificada o superan la capacidad máxima de los agentes seleccionados."* Soluciones: amplía la ventana (Hora inicio/final), elige un **Punto de partida** más cercano (ej. un hub próximo) o reduce la cantidad de tareas.
 
 > 💡 **Tip:** El panel de selección de recursos tiene buscador y la opción **Seleccionar todos los agentes**. Cada agente muestra su capacidad, equipos, habilidades y carga actual de tareas, para que elijas con criterio.
 
@@ -55,34 +56,69 @@ Botones del panel: **Atrás** (volver a elegir recursos), **Siguiente** (calcula
 
 ## 6.3 Puntos de inicio y fin de ruta
 
-Se controlan con **Punto de partida** y **Punto final** (§6.2). Lo habitual:
-- **Partida = Posición Actual** del agente (o su dirección de pernocta).
-- **Fin = Posición Última** (termina donde cae la última tarea) o un retorno al hub.
+Se controlan con **Punto de partida** y **Punto final** (§6.2). Cada selector es una lista con buscador que incluye:
 
-[PENDIENTE: lista completa de opciones de cada selector]
+- **Posición Actual Agente** — la última ubicación GPS conocida del agente.
+- **Dirección del Agente** — su dirección de pernocta (base).
+- **Posición Último Pedido** (solo en Punto final) — termina donde cae la última tarea de la ruta.
+- **Cualquier Hub** de tu cuenta (ej. *COAP - Panamá*, *Oviensa*, *Centro Operativo...*) — útil para que la ruta arranque/termine en una bodega o centro.
+
+> 💡 **Tip:** Si la optimización falla por "ventana de atención" (§6.1), suele deberse a que *Posición Actual Agente* no existe o está muy lejos. Cambiar el **Punto de partida** a un **hub cercano a las tareas** resuelve el cálculo. En la prueba documentada, partir desde el hub *COAP - Panamá* permitió generar la ruta con éxito.
 
 ## 6.4 Ajuste manual de la ruta propuesta
 
-Tras calcular, Delego muestra la ruta sugerida en el mapa con el orden de paradas numerado. Desde ahí puedes **reordenar paradas**, **quitar** una tarea de la ruta o **mover** una tarea a otra ruta antes de confirmar.
+Tras pulsar **Siguiente**, el motor calcula y se abre la vista **Resultados Planificación de Rutas** (panel izquierdo), con dos grupos:
 
-[PENDIENTE: capturar la vista de ruta propuesta y los controles de reordenamiento — bloqueado por data demo, ver nota inicial]
+- **Tareas sin planificar** — las que no pudieron entrar en ninguna ruta (con su conteo).
+- **Ruta - 1**, **Ruta - 2**, … — cada ruta generada, con un **nombre editable** y un contador de paradas. Cada ruta tiene un ícono de **previsualización** (ojo) para verla resaltada en el mapa.
 
-## 6.5 Indicadores de ruta (On Time, Eficiencia, Hora de llegada)
+Al **expandir** una ruta puedes ver el orden de las paradas y reordenarlas, quitar una tarea o moverla a otra ruta antes de confirmar. El mapa muestra el recorrido propuesto.
 
-Cada ruta propuesta muestra indicadores para evaluar su calidad antes de confirmar: cumplimiento de ventanas (**On Time**), **eficiencia** del recorrido y **hora de llegada / ETA** estimada por parada.
+[CAPTURA: resultados_planificacion_rutas.png]
 
-[PENDIENTE: capturar valores y ubicación exacta de los indicadores — bloqueado por data demo]
+## 6.5 Indicadores de ruta
 
-## 6.6 Costos de ruta
+El panel derecho **Resumen de Rutas** muestra los indicadores de cada ruta para evaluarla antes de asignarla. En la ejecución de ejemplo (3 tareas, agente CLEOFAS, partida desde COAP - Panamá):
 
-El optimizador estima el **costo** de la ruta (combustible/distancia/tiempo según la parametrización de la cuenta), para comparar alternativas.
+| Indicador | Qué significa | Valor de ejemplo |
+|---|---|---|
+| **Tareas planificadas** | Cuántas tareas entraron en rutas. | 3 |
+| **Tareas sin planificar** | Cuántas quedaron fuera. | 0 |
+| **Identificador de ruta/compartimiento** | Código de la ruta (ej. C1). | C1 |
+| **Uso (%)** | Porcentaje de aprovechamiento de la capacidad del recurso. | 0% |
+| **Distancia** | Kilómetros totales del recorrido. | 12.20 km |
+| **Duración** | Tiempo total estimado. | (ver Nota) |
+| ↳ **Conducción** | Tiempo manejando. | 00h 13m |
+| ↳ **Servicio** | Tiempo atendiendo en sitio. | 00h 15m |
+| ↳ **Espera** | Tiempo de espera entre paradas. | 00h 00m |
 
-[PENDIENTE: capturar el desglose de costos — bloqueado por data demo]
+Cada tarjeta de ruta (panel der. y listado izq.) resume **Uso (%)**, **Distancia** y **Duración** de un vistazo.
+
+[CAPTURA: resumen_de_rutas_indicadores.png]
+
+> 📝 **Nota:** En la prueba, la **Duración** total se mostró como un valor negativo ("-5h -31m"), inconsistente con el desglose (Conducción 13m + Servicio 15m). Es un comportamiento a verificar; los sub-totales de Conducción/Servicio/Espera sí son confiables.
+
+## 6.6 Costos y confirmación de la ruta
+
+Los indicadores de **Distancia** y **Duración** (con su desglose) son la base del costo operativo de la ruta: permiten comparar alternativas (distinto agente, distinto punto de partida, distinto modo de optimización) y elegir la más eficiente antes de comprometerla.
+
+Cuando la ruta propuesta te convence, haz clic en **Asignar a Ruta** para asignarla al agente (las tareas pasan a **Asignadas**). Usa **Atrás** para reconfigurar o **Cancelar** para descartar la propuesta sin asignar.
+
+[CAPTURA: boton_asignar_a_ruta.png]
+
+## 6.7 Rutas recurrentes
+
+Desde la ventana de optimización **también puedes configurar la ruta como recurrente** (que se repita automáticamente en una cadencia: diaria, semanal, etc.), de modo que el mismo recorrido se genere periódicamente sin rehacerlo a mano.
+
+> ⚠️ **Advertencia:** La opción de recurrencia de ruta **solo aparece si ninguna de las tareas seleccionadas tiene ya su propia recurrencia**. Si incluyes una tarea recurrente, Delego oculta la opción y, al intentar aplicarla, muestra: *"No se puede aplicar recurrencia a la ruta seleccionada, ya que algunas tareas incluidas tienen configurada una recurrencia. Revisa y ajusta las tareas individuales antes de intentar establecer una recurrencia para la ruta en su totalidad."*
+>
+> Para crear una **ruta recurrente**, parte de **tareas sin recurrencia propia**.
+
+[CAPTURA: ruta_recurrente_opcion.png]
 
 ## Pendientes de exploración (iteración futura)
 
-- [ ] Ejecutar una optimización completa con tareas y agente del **mismo equipo** para documentar 6.4–6.6 (ruta propuesta, indicadores, costos).
 - [ ] Diferencias exactas entre **Planif. Rutas** (básico) y **Planif. Avanzada de Rutas**.
-- [ ] Opciones completas de cada selector (Punto de partida/final, Tiempo de servicio, Modo de Movilidad).
 - [ ] El modo **Múltiples Compartimientos (Beta)**.
-- [ ] Capturas de pantalla definitivas.
+- [ ] Captura visual de la opción de **ruta recurrente** con tareas no recurrentes.
+- [ ] Capturas de pantalla definitivas (marcadas arriba).
