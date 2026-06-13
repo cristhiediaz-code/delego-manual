@@ -143,11 +143,12 @@ Cada sección/módulo sigue esta estructura:
     13.1 Event log: Historial por tarea + Logs de Eventos (CREAR/ACTUALIZAR/ELIMINAR)
     13.2 Planificadas no ejecutadas (reportes Eficiencia planif vs ejec)
     13.3 Buenas prácticas de trazabilidad
-14. Integraciones                                ⏳ PENDIENTE
-    14.1 Integración con Zoho
-    14.2 Conexión con Power BI
-    14.3 Links de tracking externos
+14. Integraciones                                ✅ REDACTADA (exploración en vivo)
+    14.1 Zoho/externos vía API + Webhook (no hay tab Zoho dedicado)
+    14.2 Power BI (vista Admin/Despachador y Cliente + endpoint reportes)
+    14.3 Links de tracking externos (enlace seguimiento + ETA)
     14.4 Coordenadas de ejecución para reportes
+    [+ Geotab BETA]
 15. Solución de problemas y preguntas frecuentes ⏳ PENDIENTE
 
 Apéndice A. Glosario de términos
