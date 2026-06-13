@@ -139,9 +139,9 @@ Cada sección/módulo sigue esta estructura:
     12.2 Vista Tareas Recurrentes + tareas planificadas (7/30/60 días/venc.)
     12.3 Edición y eliminación (individual y masiva)
     12.4 Chips: Vencidas / Por Vencer / Activas
-13. Auditoría y trazabilidad                     ⏳ PENDIENTE
-    13.1 Registro de eventos (event log)
-    13.2 Reporte de tareas planificadas no ejecutadas
+13. Auditoría y trazabilidad                     ✅ REDACTADA (exploración en vivo)
+    13.1 Event log: Historial por tarea + Logs de Eventos (CREAR/ACTUALIZAR/ELIMINAR)
+    13.2 Planificadas no ejecutadas (reportes Eficiencia planif vs ejec)
     13.3 Buenas prácticas de trazabilidad
 14. Integraciones                                ⏳ PENDIENTE
     14.1 Integración con Zoho
