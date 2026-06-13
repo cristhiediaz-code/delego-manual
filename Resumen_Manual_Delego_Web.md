@@ -88,11 +88,12 @@ Cada sección/módulo sigue esta estructura:
    4.5 Tareas relacionadas, devoluciones y completados parciales
    4.6 Estado "On Hold" y manejo de excepciones
    4.7 Ítems y cantidades dentro de una tarea
-5. Asignación de tareas                          ⏳ PENDIENTE
+5. Asignación de tareas                          ✅ REDACTADA (exploración en vivo)
    5.1 Modos de ejecución (Immediate, Same Day, Next Day, Appointed)
    5.2 Asignación directa
    5.3 Publicación a varios agentes (Immediate)
    5.4 Reasignación y cambios de equipo
+   [11 acciones del menú contextual + panel Recursos Agentes/Vehículos]
 6. Planificación y optimización de rutas         ⏳ PENDIENTE
    6.1 Planificador de rutas
    6.2 Reglas y palancas del optimizador
