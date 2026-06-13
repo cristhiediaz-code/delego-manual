@@ -64,18 +64,20 @@ Cada sección/módulo sigue esta estructura:
    2.3 Configuración mínima antes de operar
    2.4 Crea tu primera tarea
    2.5 Asigna tu primera tarea
-3. Configuración de tu cuenta                    🔄 EN PROGRESO (siguiente)
-   3.1 Tipos de tarea
-   3.2 Equipos
-   3.3 Agentes
-   3.4 Vehículos
-   3.5 Hubs
-   3.6 Habilidades (skills) y capacidades
-   3.7 Clientes
-   3.8 Formularios de campo
-   3.9 Ajustes del sistema
-   3.10 Usuarios web y permisos
-4. Gestión de tareas                             ⏳ PENDIENTE
+3. Configuración de tu cuenta                    ✅ REDACTADA (exploración en vivo)
+   3.1 Tipos de tarea                            ✅
+   3.2 Equipos                                   ✅
+   3.3 Agentes                                   ✅
+   3.4 Vehículos                                 ✅
+   3.5 Hubs                                      ✅
+   3.6 Habilidades (skills) y capacidades        ✅
+   3.7 Clientes                                  ✅
+   3.8 Formularios de campo                      ✅
+   3.9 Ajustes del sistema                       ✅
+   3.10 Usuarios web y permisos                  ✅
+   3.11 Otros catálogos (Campos/Vistas Pers.,    ✅ (nuevo, no estaba en índice)
+        Unidad de medidas, Marcas, Modelos)
+4. Gestión de tareas                             🔄 SIGUIENTE
    4.1 Crear una tarea manualmente
    4.2 Crear tareas en lote (Bulk Load)
    4.3 Editar, duplicar y cancelar tareas
