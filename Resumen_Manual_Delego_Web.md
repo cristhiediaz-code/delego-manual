@@ -104,13 +104,6 @@ Cada sección/módulo sigue esta estructura:
    6.7 Rutas recurrentes (nuevo)                 ✅ (regla: solo con tareas sin recurrencia propia)
    [Reglas clave: agente del mismo equipo; ventana/capacidad; partir de hub cercano]
    [Técnica usada: Edición Masiva para alinear equipo tareas↔agente, luego optimizar]
-7. Maestro de Rutas  🔜 Próximamente             ⏳ PENDIENTE
-   7.1 ¿Qué es el Maestro de Rutas?
-   7.2 Plantillas de rutas
-   7.3 Rutas Por Planificar / Incompletas
-   7.4 Rutas Planificadas
-   7.5 Rutas en Proceso (vista en vivo)
-   7.6 Rutas Ejecutadas
 8. Monitoreo en tiempo real                      ✅ REDACTADA (exploración en vivo)
    8.1 Mapa operativo (CAPAS: Equipos, Tareas Ejecutadas)
    8.2 Estado de agentes (tarjeta: último reporte, estatus, coords)
@@ -417,9 +410,9 @@ Refleja estas relaciones:
 | Pasos mínimos | Todos los campos, edge cases |
 | Para arrancar rápido | Para configuración avanzada |
 
-### Sobre el Maestro de Rutas (Sección 7)
-- Aún no está listo en producto
-- Se documentará con nota "🔜 Próximamente" y estructura básica
+### Sobre el Maestro de Rutas
+- Descartado del manual a pedido del usuario (no se documenta).
+- La numeración del índice salta de la Sección 6 a la 8.
 
 ### Sobre los Casos de uso por industria
 - Inicialmente considerados como Sección 14
