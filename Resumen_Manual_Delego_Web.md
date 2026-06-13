@@ -94,13 +94,14 @@ Cada sección/módulo sigue esta estructura:
    5.3 Publicación a varios agentes (Immediate)
    5.4 Reasignación y cambios de equipo
    [11 acciones del menú contextual + panel Recursos Agentes/Vehículos]
-6. Planificación y optimización de rutas         ⏳ PENDIENTE
-   6.1 Planificador de rutas
-   6.2 Reglas y palancas del optimizador
-   6.3 Puntos de inicio y fin de ruta
-   6.4 Ajuste manual de la ruta propuesta
-   6.5 Indicadores de ruta (On Time, Eficiencia, Hora de llegada)
-   6.6 Costos de ruta
+6. Planificación y optimización de rutas         🔶 PARCIAL (config completa; resultado bloqueado por data demo)
+   6.1 Planificador de rutas                     ✅
+   6.2 Reglas y palancas del optimizador         ✅ (todas las palancas + 3 modos de optimización)
+   6.3 Puntos de inicio y fin de ruta            ✅ (parcial)
+   6.4 Ajuste manual de la ruta propuesta        ⏳ (bloqueado: tareas/agentes en equipos cruzados)
+   6.5 Indicadores de ruta (On Time, Efic., ETA) ⏳ (bloqueado)
+   6.6 Costos de ruta                            ⏳ (bloqueado)
+   [Regla clave documentada: agente debe ser del mismo equipo que las tareas]
 7. Maestro de Rutas  🔜 Próximamente             ⏳ PENDIENTE
    7.1 ¿Qué es el Maestro de Rutas?
    7.2 Plantillas de rutas
