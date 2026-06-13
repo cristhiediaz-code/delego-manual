@@ -134,11 +134,11 @@ Cada sección/módulo sigue esta estructura:
     11.3 Programar reportes recurrentes          ⏳ (no se halló programador)
     11.4 Ventana de descargas / asíncronos       ⏳ (no se halló bandeja)
     11.5 Personalizar plantillas (BETA: elegir formulario, descargar/subir) ✅
-12. Recurrencias y tareas planificadas a futuro  ⏳ PENDIENTE
-    12.1 Crear una recurrencia
-    12.2 Vista de tareas planificadas
-    12.3 Edición y eliminación masiva
-    12.4 Recurrencias activas, por vencer y vencidas
+12. Recurrencias y tareas planificadas a futuro  ✅ REDACTADA (exploración en vivo)
+    12.1 Crear recurrencia (Modo: Diaria/Semanal/Mensual/Anual/Personalizar)
+    12.2 Vista Tareas Recurrentes + tareas planificadas (7/30/60 días/venc.)
+    12.3 Edición y eliminación (individual y masiva)
+    12.4 Chips: Vencidas / Por Vencer / Activas
 13. Auditoría y trazabilidad                     ⏳ PENDIENTE
     13.1 Registro de eventos (event log)
     13.2 Reporte de tareas planificadas no ejecutadas
