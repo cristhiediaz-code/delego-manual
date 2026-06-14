@@ -38,7 +38,7 @@ Asigna la tarea al agente más cercano según el tiempo estimado de conducción 
 ### Secuencial Inteligente (Round Robin)
 Combina la rotación con criterios de inteligencia (distancia/carga).
 
-[CAPTURA: settings_auto_asignacion.png]
+![Settings auto asignacion](imagenes/web/03_09_ajustes/settings_auto_asignacion.png)
 
 ---
 
@@ -48,7 +48,7 @@ Matriz que define **qué estados de la tarea disparan notificación** y **por qu
 
 Al pie: **Idioma de notificaciones** (ej. Español), independiente del idioma de la plataforma.
 
-[CAPTURA: settings_notificaciones.png]
+![Settings notificaciones](imagenes/web/03_09_ajustes/settings_notificaciones.png)
 
 ---
 
@@ -72,7 +72,7 @@ Controla qué puede hacer el agente desde la app móvil, con interruptores:
 
 Además, **Motivos de Retroceso en la Tarea**: define la lista de motivos que el agente debe seleccionar al revertir el estado de una tarea, para mantener trazabilidad y contexto de las decisiones operativas.
 
-[CAPTURA: settings_app_agente.png]
+![Settings app agente](imagenes/web/03_09_ajustes/settings_app_agente.png)
 
 ---
 
@@ -86,7 +86,7 @@ Define la **unidad de medida de cada una de las 5 capacidades** que se asignan a
 ### ID Delego para tareas
 Interruptor que, al activarse, asigna automáticamente un **identificador único** generado por Delego a cada tarea. Facilita el seguimiento y la referencia de tareas en la plataforma y en los reportes.
 
-[CAPTURA: settings_generales.png]
+![Settings generales](imagenes/web/03_09_ajustes/settings_generales.png)
 
 ---
 
@@ -100,7 +100,7 @@ Ajustes de visualización de la cuenta:
 | **Date format** 🆕 | Cómo se muestran las fechas en la plataforma y reportes (ej. DD/MM/YYYY). |
 | **Platform language** | Idioma de la interfaz: **English / Español / Português**. No afecta el idioma de las notificaciones (eso se ajusta en la pestaña Notificaciones). |
 
-[CAPTURA: settings_preferencias.png]
+![Settings preferencias](imagenes/web/03_09_ajustes/settings_preferencias.png)
 
 ---
 
@@ -129,8 +129,8 @@ Dos juegos de credenciales para incrustar tableros:
 ### Geotab
 Integración con telemática de flota: **Base de Datos**, **Usuario**, **Contraseña** y enlace a **Documentación Geotab**.
 
-[CAPTURA: settings_integraciones_api.png]
-[CAPTURA: settings_integraciones_powerbi.png]
+![Settings integraciones api](imagenes/web/03_09_ajustes/settings_integraciones_api.png)
+![Settings integraciones powerbi](imagenes/web/03_09_ajustes/settings_integraciones_powerbi.png)
 
 ---
 

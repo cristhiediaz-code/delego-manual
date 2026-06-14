@@ -6,7 +6,7 @@ La **tarea** es la unidad básica de trabajo en Delego: una entrega, recogida, v
 
 ## El listado de Tareas
 
-[CAPTURA: listado_tareas.png]
+![Listado tareas](imagenes/web/04_gestion_tareas/listado_tareas.png)
 
 En la parte superior, una **barra de chips de estado** muestra cuántas tareas hay en cada estado y permite filtrar el listado al hacer clic en uno (ver §4.4).
 
@@ -60,7 +60,7 @@ En la parte superior, una **barra de chips de estado** muestra cuántas tareas h
    - **Guardar & Crear Retorno** — (en flujos de recolección+entrega) crea la tarea inversa.
    - **Cancelar** — descarta.
 
-[CAPTURA: modal_detalle_tarea_pestana1.png]
+![Modal detalle tarea pestana1](imagenes/web/04_gestion_tareas/modal_detalle_tarea_pestana1.png)
 
 ---
 
@@ -77,7 +77,7 @@ Para crear muchas tareas a la vez desde un archivo Excel:
 4. Selecciona tu archivo con **Seleccione el Archivo**.
 5. Haz clic en **Importar Tareas**.
 
-[CAPTURA: modal_carga_masiva_tareas.png]
+![Modal carga masiva tareas](imagenes/web/04_gestion_tareas/modal_carga_masiva_tareas.png)
 
 ### Estructura de la plantilla
 
@@ -135,7 +135,7 @@ Cada fila del listado tiene, en **Opciones**, estos botones:
 
 ### Ver detalles (solo lectura)
 
-[CAPTURA: modal_ver_detalles_tarea.png]
+![Modal ver detalles tarea](imagenes/web/04_gestion_tareas/modal_ver_detalles_tarea.png)
 
 Muestra, sin posibilidad de editar:
 - **Tarea**: nombre, tipo, prioridad, identificador, fecha, ventana, equipo, modo, valores, condición, compartimiento, tiempo de servicio, instrucciones, recurrencia e ítems.
@@ -168,7 +168,7 @@ El estado de una tarea se ve en la columna **Estatus** y en los **chips superior
 
 El botón **Ver eventos de la tarea** (reloj) abre el **Historial de Eventos**: una línea de tiempo de cada cambio de estado, con **estado, fecha/hora y autor** (ej. "NO ASIGNADO — 31/05/2026 17:18 — Cristhie Y Díaz (SYSTEM)"). Incluye botón para **exportar** el historial. Es la base de la auditoría (ver Sección 12).
 
-[CAPTURA: modal_historial_eventos.png]
+![Modal historial eventos](imagenes/web/04_gestion_tareas/modal_historial_eventos.png)
 
 ---
 
@@ -203,7 +203,7 @@ En la pestaña **Tarea**, la sección **Detalle de Items** lista los ítems que 
 - En la **carga masiva**, los ítems se cargan con `Item 1`/`Item 1 Qty` (inline) o en la hoja **Data-Items** (varios por tarea, vinculados por `OrderID`).
 - El cumplimiento parcial de estos ítems es lo que produce el estado **Parcialmente Completada** (§4.5).
 
-[CAPTURA: detalle_items_tarea.png]
+![Detalle items tarea](imagenes/web/04_gestion_tareas/detalle_items_tarea.png)
 
 ---
 

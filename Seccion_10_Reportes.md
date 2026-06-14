@@ -25,7 +25,7 @@ Reportes en **Formato Word (.docx)** y **Formato Excel (.xlsx)** diseñados a me
 ### Reportes Personalizados BETA
 La versión vigente de reportes a medida. Se organizan **por tipo de tarea / formulario**, con buscador, y son los que se adjuntan a las notificaciones BETA (§9.4).
 
-[CAPTURA: reportes_vista_general.png]
+![Reportes vista general](imagenes/web/10_reportes/reportes_vista_general.png)
 
 ## 10.2 Generar un reporte estándar bajo demanda
 
@@ -38,8 +38,8 @@ La versión vigente de reportes a medida. Se organizan **por tipo de tarea / for
 4. Se abre la pestaña **Resultado** con la **tabla** de datos: buscador, columnas ordenables y paginación (ej. "Mostrando 1 al 10 de 25 registros").
 5. Haz clic en **Exportar** (tiene un desplegable para elegir el formato de salida) para descargar el reporte.
 
-[CAPTURA: reporte_estandar_filtros.png]
-[CAPTURA: reporte_estandar_resultado.png]
+![Reporte estandar filtros](imagenes/web/10_reportes/reporte_estandar_filtros.png)
+![Reporte estandar resultado](imagenes/web/10_reportes/reporte_estandar_resultado.png)
 
 > 💡 **Tip:** Selecciona solo las columnas que necesitas antes de Cargar Datos: un reporte más liviano se genera y exporta más rápido, y es más fácil de leer.
 
@@ -53,7 +53,7 @@ Los reportes personalizados BETA se diseñan a partir de una **plantilla** asoci
    - **Subir** — cargas tu plantilla ya diseñada.
 3. Diseña la plantilla (Word/Excel) usando los campos del formulario y vuelve a **subirla**.
 
-[CAPTURA: reporte_beta_crear_plantilla.png]
+![Reporte beta crear plantilla](imagenes/web/10_reportes/reporte_beta_crear_plantilla.png)
 
 Una vez creado, el reporte BETA aparece bajo su tipo de tarea con acciones de **descargar**, **configurar** (engranaje) y **expandir**. Desde ahí queda disponible para:
 - **Descargarse bajo demanda**.

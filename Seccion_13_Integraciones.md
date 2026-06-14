@@ -19,7 +19,7 @@ Para que un sistema externo (Zoho, un ERP, etc.) **cree o consulte tareas en Del
 
 Cada credencial tiene un botón de **copiar**. El equipo técnico de Zoho (o tu integrador) usa estos datos para autenticar las llamadas.
 
-[CAPTURA: integraciones_api.png]
+![Integraciones api](imagenes/web/13_integraciones/integraciones_api.png)
 
 ### Con Webhook (Integraciones → Webhook)
 Para que **Delego avise a un sistema externo** cuando algo ocurre (ej. una tarea se completó), configura el **Webhook**:
@@ -43,7 +43,7 @@ Además:
 - Interruptor **Permitir al perfil tipo Cliente visualizar tablero de PBI**.
 - Bloque **API** con un endpoint `get_report_file` para **descargar reportes por rango de fechas** (incluye el header **Accept** y un enlace a la **Documentación de Power BI**).
 
-[CAPTURA: integraciones_powerbi.png]
+![Integraciones powerbi](imagenes/web/13_integraciones/integraciones_powerbi.png)
 
 > 💡 **Tip:** Usa la **Vista Cliente** + el toggle de visualización para dar a un cliente corporativo su propio tablero de Power BI dentro de Delego, sin exponer los datos del resto de tu operación.
 

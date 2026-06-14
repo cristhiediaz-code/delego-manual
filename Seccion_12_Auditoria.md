@@ -18,7 +18,7 @@ Muestra cada **cambio de estado** con:
 
 Incluye un botón para **exportar** el historial.
 
-[CAPTURA: historial_eventos_tarea.png]
+![Historial eventos tarea](imagenes/web/12_auditoria/historial_eventos_tarea.png)
 
 ### B) Reporte Logs de Eventos (auditoría de la cuenta)
 Es el registro de auditoría **de toda la cuenta**. Se abre desde menú lateral → **Reportes** → categoría **Logs** → **Logs de Eventos**.
@@ -34,7 +34,7 @@ Es el registro de auditoría **de toda la cuenta**. Se abre desde menú lateral 
 
 Pulsa **Buscar** para cargar. La tabla muestra: **ID de Evento, Tipo de Evento, Descripción, Usuario Responsable, Entidad Afectada, Estado Anterior, Nuevo Estado, Fecha**. Tiene buscador, columnas ordenables, paginación y botón **Exportar**.
 
-[CAPTURA: logs_de_eventos.png]
+![Logs de eventos](imagenes/web/12_auditoria/logs_de_eventos.png)
 
 > 💡 **Tip:** Para investigar "¿quién cambió esto?", filtra por **Tipo de Evento = ACTUALIZAR** y por **Usuario**, y acota el rango de fechas al día del incidente. La columna **Estado Anterior → Nuevo Estado** te dice exactamente qué cambió.
 
@@ -51,7 +51,7 @@ Complementariamente:
 - En **Tareas Recurrentes** (§11.4), el chip **Vencidas** muestra recurrencias cuya vigencia terminó.
 - El modal **Tareas planificadas** (§11.2) anticipa las tareas futuras que el sistema generará.
 
-[CAPTURA: reporte_planificadas_vs_ejecutadas.png]
+![Reporte planificadas vs ejecutadas](imagenes/web/12_auditoria/reporte_planificadas_vs_ejecutadas.png)
 
 > 📝 **Nota:** Genera estos reportes filtrando **Por Fecha Planificada** para evaluar el cumplimiento del plan del día/semana.
 

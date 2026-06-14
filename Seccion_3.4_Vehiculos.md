@@ -13,7 +13,7 @@ Los **Vehículos** son recursos operativos opcionales que puedes asociar a tus a
 
 ## El listado de vehículos
 
-[CAPTURA: listado_vehiculos.png]
+![Listado vehiculos](imagenes/web/03_04_vehiculos/listado_vehiculos.png)
 
 | Columna | Qué muestra |
 |---|---|
@@ -45,7 +45,7 @@ Las herramientas del listado (búsqueda, ordenamiento, filtros por columna y exp
 | **Tipo** | Opcional | Lista desplegable (ej. Externo / Interno). |
 | **Equipos** | ✅ | El o los equipos donde opera el vehículo. |
 
-[CAPTURA: modal_vehiculo_datos.png]
+![Modal vehiculo datos](imagenes/web/03_04_vehiculos/modal_vehiculo_datos.png)
 
 ### Pestaña 2: Opciones avanzadas de optimización
 

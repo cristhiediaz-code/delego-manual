@@ -23,13 +23,13 @@ Tres reglas clave:
 1. En el menú lateral, haz clic en **Recursos operativos**.
 2. Selecciona **Equipos**.
 
-[CAPTURA: menu_recursos_equipos.png]
+![Menu recursos equipos](imagenes/web/03_02_equipos/menu_recursos_equipos.png)
 
 > 💡 **Tip:** El botón **?** de la esquina superior derecha muestra el diagrama "Crea tu primer equipo" con el resumen visual Hub → Equipo → Agentes.
 
 ## El listado de equipos
 
-[CAPTURA: listado_equipos.png]
+![Listado equipos](imagenes/web/03_02_equipos/listado_equipos.png)
 
 | Columna | Qué muestra |
 |---|---|
@@ -59,7 +59,7 @@ Botones de la esquina superior derecha: **?** (diagrama), **+** (nuevo equipo), 
 | **Autoasignación** | Opcional (checkbox) | Al activarse, cualquier tarea asignada a este equipo se distribuye automáticamente entre sus agentes, según la lógica configurada en **Configuraciones (engranaje) → Auto Assignment**. |
 | **Zona Geográfica** | Opcional (checkbox) | Si una tarea no tiene equipo asignado pero su ubicación cae dentro de la zona geográfica dibujada por este equipo, el sistema le asigna automáticamente este equipo al momento de geocodificarse. |
 
-[CAPTURA: modal_detalles_equipo.png]
+![Modal detalles equipo](imagenes/web/03_02_equipos/modal_detalles_equipo.png)
 
 ### Pestaña "Campos personalizados"
 

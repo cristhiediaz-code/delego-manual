@@ -25,7 +25,7 @@ El modelo de permisos tiene tres piezas:
 
 ## El listado de usuarios web
 
-[CAPTURA: listado_usuarios_web.png]
+![Listado usuarios web](imagenes/web/03_10_usuarios_web/listado_usuarios_web.png)
 
 | Columna | Qué muestra |
 |---|---|
@@ -54,7 +54,7 @@ Además de las herramientas habituales (búsqueda, ordenamiento, filtros por col
 | **Estatus** | ✅ | ACTIVO / INACTIVO. |
 | **Equipos** | ✅ | El o los equipos cuyos datos podrá ver el usuario. |
 
-[CAPTURA: modal_usuario_web.png]
+![Modal usuario web](imagenes/web/03_10_usuarios_web/modal_usuario_web.png)
 
 3. Haz clic en **Guardar**. El usuario recibirá sus credenciales por correo, y aparecerá como NO VERIFICADO hasta su primer ingreso.
 

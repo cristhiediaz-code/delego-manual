@@ -27,7 +27,7 @@ Los **estados** que pueden disparar notificaciones son:
 
 Verás la pantalla **Notificaciones Personalizadas (BETA)**: una fila por estado, con el número de **notificaciones activas** por canal (**Email**, **Webhook**, **WhatsApp**). El ícono de **engranaje** azul de cada estado abre su lista de notificaciones.
 
-[CAPTURA: notif_beta_matriz_estados.png]
+![Notif beta matriz estados](imagenes/web/09_notificaciones/notif_beta_matriz_estados.png)
 
 ## 9.2 Crear y configurar una notificación
 
@@ -36,7 +36,7 @@ Verás la pantalla **Notificaciones Personalizadas (BETA)**: una fila por estado
 3. Haz clic en el botón **+** para crear una nueva. Delego pide primero el **Nombre de la notificación**; escríbelo y **Guardar**.
 4. Se abre el **editor de la notificación** con **cuatro pestañas**: **Filtros**, **Formato de Correos**, **Adjuntos** y **Destinatarios**.
 
-[CAPTURA: notif_beta_lista_estado.png]
+![Notif beta lista estado](imagenes/web/09_notificaciones/notif_beta_lista_estado.png)
 
 ### Pestaña Formato de Correos
 Define el contenido del correo:
@@ -44,7 +44,7 @@ Define el contenido del correo:
 - **Editor de texto enriquecido** (negrita, cursiva, listas, alineación, enlaces, imágenes, color, e incluso edición de **código HTML**).
 - **Campos Dinámicos**: menú para insertar datos de la tarea en el asunto o el cuerpo, de modo que cada correo se personaliza solo. Campos disponibles: **Identificador, Nombre de la tarea, Instrucciones, Fecha planificada + hora, Modo de Tarea, Prioridad, Valor 1…** (y, según la descripción, también ventana de atención y **enlace de seguimiento**, ver §9.6).
 
-[CAPTURA: notif_beta_formato_correo.png]
+![Notif beta formato correo](imagenes/web/09_notificaciones/notif_beta_formato_correo.png)
 
 5. Completa las demás pestañas (§9.3, §9.4, §9.6) y haz clic en **Guardar**.
 
@@ -65,7 +65,7 @@ La pestaña **Filtros** define **cuándo** se dispara esta notificación, ademá
 
 Así puedes tener, por ejemplo, un correo de "COMPLETADA" distinto para el tipo de tarea "Entregas" que para "Visita Médica".
 
-[CAPTURA: notif_beta_filtros.png]
+![Notif beta filtros](imagenes/web/09_notificaciones/notif_beta_filtros.png)
 
 ## 9.4 Adjuntar reportes a notificaciones (pestaña Adjuntos)
 
@@ -73,7 +73,7 @@ La pestaña **Adjuntos** permite **adjuntar hasta 5 reportes** al correo de la n
 
 > ⚠️ **Advertencia:** Los reportes deben estar **creados previamente en Reportes Personalizados** (Sección 10) y solo aparecerán en la lista los **asociados al tipo de tarea** seleccionado en Filtros. Si no ves tu reporte, revisa que exista y esté asociado a ese tipo de tarea.
 
-[CAPTURA: notif_beta_adjuntos.png]
+![Notif beta adjuntos](imagenes/web/09_notificaciones/notif_beta_adjuntos.png)
 
 ## 9.5 Probar antes de activar
 
@@ -92,7 +92,7 @@ Define **quién recibe** el correo:
 - **Usar correos asociados a la tarea** (toggle): envía al **correo del cliente** de la tarea (lo más común para notificar al cliente final).
 - **Agregar correos adicionales** (toggle): permite escribir **direcciones de correo manuales** extra.
 
-[CAPTURA: notif_beta_destinatarios.png]
+![Notif beta destinatarios](imagenes/web/09_notificaciones/notif_beta_destinatarios.png)
 
 ### Links de tracking y ETA
 Para que el cliente pueda **seguir su tarea en tiempo real**, inserta el **enlace de seguimiento** desde los **Campos Dinámicos** (§9.2) en el cuerpo del correo. Ese link lleva a una página de tracking con la ubicación/estado y la **hora estimada de llegada (ETA)**.

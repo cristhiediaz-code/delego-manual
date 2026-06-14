@@ -46,7 +46,7 @@ Con tareas seleccionadas, haz **clic derecho** sobre la selección para abrir el
 | **Planif. Rutas** | Optimizador básico; premisa: la **ruta más corta**. |
 | **Planif. Avanzada de Rutas** | Optimizador avanzado: considera capacidades, tiempos de servicio, ventanas de atención y más. **Única modalidad que también permite asignar a vehículos** (ver §6). |
 
-[CAPTURA: menu_contextual_asignacion.png]
+![Menu contextual asignacion](imagenes/web/05_asignacion/menu_contextual_asignacion.png)
 
 > 📝 **Nota:** El menú contextual también incluye acciones que **no** son de asignación: **Desasignar Tarea, Cancelar Tarea, Eliminar Tareas, Invalidar Localización de Tarea** y **Edición Masiva** (editar varias tareas a la vez). Ver §5.4.
 
@@ -60,8 +60,8 @@ Con tareas seleccionadas, haz **clic derecho** sobre la selección para abrir el
 6. Confirma en el modal **Asignar Tareas** → **Asignar**.
 7. Aparece un mensaje de éxito (toast); en el listado, la tarea cambia de color (de blanco a **azul = Asignada**) y muestra **"Asignado a: [Nombre]"**.
 
-[CAPTURA: panel_recursos_agentes.png]
-[CAPTURA: modal_seleccionar_asignar.png]
+![Panel recursos agentes](imagenes/web/05_asignacion/panel_recursos_agentes.png)
+![Modal seleccionar asignar](imagenes/web/05_asignacion/modal_seleccionar_asignar.png)
 
 > 📝 **Nota:** Para las modalidades **inmediatas** (Directa, Publicar, Publicación Inteligente) solo se asigna a **Agentes**. La pestaña **Vehículos** del panel Recursos solo aplica en **Planif. Avanzada de Rutas**.
 

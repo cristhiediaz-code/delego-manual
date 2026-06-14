@@ -28,7 +28,7 @@ Cuando una operación tiene muchas tareas que un mismo agente debe cubrir en un 
 
 El panel **Planificación de la Ruta → Configuración de Optimización** expone estas palancas:
 
-[CAPTURA: panel_optimizador_configuracion.png]
+![Panel optimizador configuracion](imagenes/web/06_planificacion_rutas/panel_optimizador_configuracion.png)
 
 | Palanca | Qué controla | Valores observados |
 |---|---|---|
@@ -74,7 +74,7 @@ Tras pulsar **Siguiente**, el motor calcula y se abre la vista **Resultados Plan
 
 Al **expandir** una ruta puedes ver el orden de las paradas y reordenarlas, quitar una tarea o moverla a otra ruta antes de confirmar. El mapa muestra el recorrido propuesto.
 
-[CAPTURA: resultados_planificacion_rutas.png]
+![Resultados planificacion rutas](imagenes/web/06_planificacion_rutas/resultados_planificacion_rutas.png)
 
 ## 6.5 Indicadores de ruta
 
@@ -94,7 +94,7 @@ El panel derecho **Resumen de Rutas** muestra los indicadores de cada ruta para 
 
 Cada tarjeta de ruta (panel der. y listado izq.) resume **Uso (%)**, **Distancia** y **Duración** de un vistazo.
 
-[CAPTURA: resumen_de_rutas_indicadores.png]
+![Resumen de rutas indicadores](imagenes/web/06_planificacion_rutas/resumen_de_rutas_indicadores.png)
 
 > 📝 **Nota:** En la prueba, la **Duración** total se mostró como un valor negativo ("-5h -31m"), inconsistente con el desglose (Conducción 13m + Servicio 15m). Es un comportamiento a verificar; los sub-totales de Conducción/Servicio/Espera sí son confiables.
 
@@ -104,7 +104,7 @@ Los indicadores de **Distancia** y **Duración** (con su desglose) son la base d
 
 Cuando la ruta propuesta te convence, haz clic en **Asignar a Ruta** para asignarla al agente (las tareas pasan a **Asignadas**). Usa **Atrás** para reconfigurar o **Cancelar** para descartar la propuesta sin asignar.
 
-[CAPTURA: boton_asignar_a_ruta.png]
+![Boton asignar a ruta](imagenes/web/06_planificacion_rutas/boton_asignar_a_ruta.png)
 
 ## 6.7 Rutas recurrentes
 
@@ -114,7 +114,7 @@ Desde la ventana de optimización **también puedes configurar la ruta como recu
 >
 > Para crear una **ruta recurrente**, parte de **tareas sin recurrencia propia**.
 
-[CAPTURA: ruta_recurrente_opcion.png]
+![Ruta recurrente opcion](imagenes/web/06_planificacion_rutas/ruta_recurrente_opcion.png)
 
 ## Pendientes de exploración (iteración futura)
 

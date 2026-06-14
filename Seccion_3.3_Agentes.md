@@ -13,11 +13,11 @@ Los **Agentes** son las personas que ejecutan las tareas en campo a través de l
 1. En el menú lateral, haz clic en **Recursos operativos**.
 2. Selecciona **Agentes**.
 
-[CAPTURA: menu_recursos_agentes.png]
+![Menu recursos agentes](imagenes/web/03_03_agentes/menu_recursos_agentes.png)
 
 ## El listado de agentes
 
-[CAPTURA: listado_agentes.png]
+![Listado agentes](imagenes/web/03_03_agentes/listado_agentes.png)
 
 | Columna | Qué muestra |
 |---|---|
@@ -51,7 +51,7 @@ Las herramientas del listado (búsqueda, ordenamiento, filtros y exportación CS
 | **Tipo Agente** | Opcional | Etiqueta de clasificación (ej. Motorizado, Técnico, Médico). Permite clasificar a los agentes disponibles en las vistas y reportes. |
 | **Correo Electrónico** | ✅ | Correo principal del agente. Se usa para el acceso a la app, recepción de notificaciones y verificación de identidad. **No se puede editar después.** |
 
-[CAPTURA: modal_agente_datos.png]
+![Modal agente datos](imagenes/web/03_03_agentes/modal_agente_datos.png)
 
 ### Pestaña 2: Opciones avanzadas de optimización
 
@@ -63,7 +63,7 @@ Las herramientas del listado (búsqueda, ordenamiento, filtros y exportación CS
 | **Dirección de pernocta de agente** | ✅ | La dirección desde donde parte y regresa el agente. Se usa para calcular rutas desde su ubicación base. |
 | **Latitud / Longitud** | ✅ | Se autocompletan al ingresar la dirección. |
 
-[CAPTURA: modal_agente_optimizacion.png]
+![Modal agente optimizacion](imagenes/web/03_03_agentes/modal_agente_optimizacion.png)
 
 > 💡 **Tip:** Este modal resalta en rojo los campos faltantes después de un intento de guardado, además del mensaje resumen ("Debes ingresar el nombre / el apellido / el correo electrónico / el estatus / la dirección / el tipo de movilidad / la capacidad / el equipo al que pertenece").
 
@@ -71,7 +71,7 @@ Las herramientas del listado (búsqueda, ordenamiento, filtros y exportación CS
 
 Totalmente opcional. Selecciona el **ID Vehículo** de la lista (el vehículo debe existir en **Recursos operativos → Vehículos**); los campos **Marca**, **Modelo** y **Tipo Vehículo** se completan con los datos del vehículo.
 
-[CAPTURA: modal_agente_vehiculo.png]
+![Modal agente vehiculo](imagenes/web/03_03_agentes/modal_agente_vehiculo.png)
 
 ### Pestaña 4: Campos personalizados
 

@@ -23,7 +23,7 @@ Tres funciones clave:
 
 ## El listado de hubs
 
-[CAPTURA: listado_hubs.png]
+![Listado hubs](imagenes/web/03_05_hubs/listado_hubs.png)
 
 | Columna | Qué muestra |
 |---|---|
@@ -49,7 +49,7 @@ Las herramientas del listado (búsqueda, ordenamiento, filtros, exportación CSV
 
 El mapa incluye controles de **zoom (+/−)**, **brújula**, **pantalla completa** y **cambio de estilo de mapa** (ícono superior izquierdo).
 
-[CAPTURA: modal_detalles_centro.png]
+![Modal detalles centro](imagenes/web/03_05_hubs/modal_detalles_centro.png)
 
 3. Haz clic en **Guardar**.
 

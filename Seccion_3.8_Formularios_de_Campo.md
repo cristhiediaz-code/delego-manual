@@ -15,7 +15,7 @@ Los **Formularios Personalizados** definen qué información captura el agente e
 
 ## El listado de formularios
 
-[CAPTURA: listado_formularios.png]
+![Listado formularios](imagenes/web/03_08_formularios/listado_formularios.png)
 
 | Columna | Qué muestra |
 |---|---|
@@ -35,7 +35,7 @@ Los **Formularios Personalizados** definen qué información captura el agente e
    - Interruptor **Obligatorio**: si se activa, el agente no puede completar la tarea sin llenar el formulario.
    - Lienzo derecho **Formulario:**: arrastra aquí los componentes y ordénalos.
 
-[CAPTURA: constructor_formulario.png]
+![Constructor formulario](imagenes/web/03_08_formularios/constructor_formulario.png)
 
 ### Componentes disponibles
 

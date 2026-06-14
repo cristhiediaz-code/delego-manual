@@ -24,7 +24,7 @@ Al editar una entidad se abre el modal **Campos Personalizados** con dos zonas:
 
 Para añadir un campo, arrastra el componente deseado a la lista, configúralo y haz clic en **Guardar**.
 
-[CAPTURA: modal_campos_personalizados.png]
+![Modal campos personalizados](imagenes/web/03_otros_config/modal_campos_personalizados.png)
 
 > 💡 **Tip:** Si necesitas capturar un dato que el formulario estándar no contempla (ej. un número de contrato en el cliente, o una placa interna en el vehículo), créalo aquí una vez y estará disponible en todos los registros de esa entidad.
 
@@ -44,7 +44,7 @@ Son **vistas/filtros guardados** que puedes reutilizar para no reconfigurar los 
 
 Con el botón **+** creas una vista nueva. Búsqueda, ordenamiento y filtros funcionan igual que en los demás listados.
 
-[CAPTURA: listado_vistas_personalizadas.png]
+![Listado vistas personalizadas](imagenes/web/03_otros_config/listado_vistas_personalizadas.png)
 
 ---
 
@@ -62,7 +62,7 @@ Cada unidad tiene **Nombre** y **Símbolo** (ej. CAJAS → `caj.`, KILOGRAMO →
 
 > 📝 **Nota:** Estas unidades son las que luego asignas a cada capacidad (Capacidad 1-5) en **Settings → Settings Generales → Definición de unidades por capacidad** (Sección 3.9).
 
-[CAPTURA: modal_unidades_medida.png]
+![Modal unidades medida](imagenes/web/03_otros_config/modal_unidades_medida.png)
 
 ---
 
@@ -74,7 +74,7 @@ Catálogos que alimentan las listas desplegables **Marca** y **Modelo** del moda
 
 Funcionan como catálogos simples (crear / editar / eliminar). Mantén estos catálogos al día para que al registrar un vehículo puedas seleccionar su marca y modelo en lugar de escribirlos.
 
-[CAPTURA: catalogos_marcas_modelos.png]
+![Catalogos marcas modelos](imagenes/web/03_otros_config/catalogos_marcas_modelos.png)
 
 ---
 

@@ -23,7 +23,7 @@ En el menú lateral, haz clic en **Clientes**.
 
 ## El listado de clientes
 
-[CAPTURA: listado_clientes.png]
+![Listado clientes](imagenes/web/03_07_clientes/listado_clientes.png)
 
 | Columna | Qué muestra |
 |---|---|
@@ -53,7 +53,7 @@ Las herramientas habituales aplican: búsqueda en vivo, ordenamiento, filtros po
 
 ¿Más de un número? Usa el enlace **Agregar teléfono adicional** debajo del teléfono principal.
 
-[CAPTURA: modal_detalles_cliente.png]
+![Modal detalles cliente](imagenes/web/03_07_clientes/modal_detalles_cliente.png)
 
 > 💡 **Tip (precisión del pin):** Como indica el propio formulario: haz clic en el punto del mapa y **arrástralo** para mayor precisión; luego haz clic **fuera del punto** para aceptar las coordenadas.
 

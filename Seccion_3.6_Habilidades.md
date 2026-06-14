@@ -19,7 +19,7 @@ Delego maneja **dos catálogos separados** de habilidades: uno para **agentes** 
 
 Se abre el modal **Configurar habilidades**.
 
-[CAPTURA: modal_configurar_habilidades.png]
+![Modal configurar habilidades](imagenes/web/03_06_habilidades/modal_configurar_habilidades.png)
 
 ## Gestionar habilidades
 

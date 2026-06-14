@@ -23,7 +23,7 @@ En la cabecera, el ícono de **refrescar** (junto al título) recarga los datos.
 | **Canceladas** | Cantidad y %. |
 | **Completadas a Tiempo** | Cantidad y % (cumplimiento de ventana / On Time). |
 
-[CAPTURA: dashboard_kpis.png]
+![Dashboard kpis](imagenes/web/08_dashboard/dashboard_kpis.png)
 
 ### Gráficos
 
@@ -37,9 +37,9 @@ En la cabecera, el ícono de **refrescar** (junto al título) recarga los datos.
 | **Cantidad de tareas por agentes** | Barras horizontales | Tareas por agente, segmentadas por estado (incluye **Asignada**). Tiene scroll para recorrer todos los agentes. |
 | **Cantidad de tareas planificadas y completas por modo** | Barras | Desglose por Modo de Tarea (Inmediata, Programada, etc.). |
 
-[CAPTURA: dashboard_graficos_estatus_prioridad.png]
-[CAPTURA: dashboard_graficos_equipos_tiempo.png]
-[CAPTURA: dashboard_grafico_agentes.png]
+![Dashboard graficos estatus prioridad](imagenes/web/08_dashboard/dashboard_graficos_estatus_prioridad.png)
+![Dashboard graficos equipos tiempo](imagenes/web/08_dashboard/dashboard_graficos_equipos_tiempo.png)
+![Dashboard grafico agentes](imagenes/web/08_dashboard/dashboard_grafico_agentes.png)
 
 > 💡 **Tip:** El gráfico **Planificadas Vs Completadas** es el más útil para detectar brechas de cumplimiento: cuando la línea Completada queda muy por debajo de la Planificada en una fecha, hubo tareas que no se ejecutaron.
 
@@ -56,7 +56,7 @@ El panel **Filtros** (pestaña vertical **Búsqueda Avanzada** en el borde derec
 
 Pasos: ajusta los filtros → **Buscar** para aplicar (los gráficos se recalculan) → **Cancelar** para descartar.
 
-[CAPTURA: dashboard_panel_filtros.png]
+![Dashboard panel filtros](imagenes/web/08_dashboard/dashboard_panel_filtros.png)
 
 > 💡 **Tip:** Para revisar el desempeño histórico, abre **Filtros**, pon una fecha **Desde** anterior (ej. inicio de año) y **Hasta** hoy, y pulsa **Buscar**. En la cuenta de ejemplo, ampliar el rango a más de un año mostró 15.560 tareas con todos los gráficos poblados, frente a 25 del día actual.
 

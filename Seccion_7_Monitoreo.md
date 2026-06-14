@@ -19,7 +19,7 @@ El control **CAPAS** (abajo a la izquierda) permite encender/apagar capas sobre 
 | **Equipos** | Las **zonas geográficas** dibujadas para los equipos (las que usa la autoasignación por zona, §3.2). |
 | **Tareas Ejecutadas** | Los puntos donde se ejecutaron tareas (histórico sobre el mapa). |
 
-[CAPTURA: monitoreo_mapa_capas.png]
+![Monitoreo mapa capas](imagenes/web/07_monitoreo/monitoreo_mapa_capas.png)
 
 > 💡 **Tip:** Enciende la capa **Equipos** para ver visualmente si una tarea cayó dentro o fuera de la zona de su equipo, y la capa **Tareas Ejecutadas** para detectar concentraciones de actividad.
 
@@ -34,7 +34,7 @@ Al hacer **clic en el pin de un agente** en el mapa, se abre su **tarjeta de est
 | **Estatus** | Estado operativo: **AVAILABLE** (disponible, verde), entre otros. |
 | **Coordenadas** | Latitud y longitud de su última posición. |
 
-[CAPTURA: monitoreo_tarjeta_agente.png]
+![Monitoreo tarjeta agente](imagenes/web/07_monitoreo/monitoreo_tarjeta_agente.png)
 
 El panel lateral **Recursos** (pestaña en el borde derecho) lista todos los agentes y vehículos con su capacidad, equipos, habilidades y carga de tareas, como vista consolidada.
 
@@ -55,7 +55,7 @@ Desde la tarjeta de estado de un agente, el menú **...** (tres puntos) ofrece a
 | **Ver Estatus del Agente** | Abre un resumen de la **carga de trabajo** del agente: tareas **Pendientes**, **Completadas** y **Rechazadas** (con buscador). |
 | **Ver Calendario del Agente** | Abre el calendario/agenda del agente para ver su programación. |
 
-[CAPTURA: monitoreo_acciones_agente.png]
+![Monitoreo acciones agente](imagenes/web/07_monitoreo/monitoreo_acciones_agente.png)
 
 Además, desde el listado/mapa de tareas se accede a todas las acciones de asignación y excepción mediante **clic derecho** (menú contextual, §5): Asignación Directa, Publicar, Desasignar, Cancelar, Invalidar Localización, etc. Esto convierte el monitoreo en un centro de control accionable, no solo de visualización.
 

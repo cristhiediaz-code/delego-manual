@@ -17,7 +17,7 @@ En **Configuración de Recurrencia**:
 | **Periodicidad Personalizada** (si Modo = Personalizar) | **Repetir cada** N + **Periodo** (Día / Semana / Mes / Año). Ej: "Repetir cada 2 Semanas". |
 | **Termina** | Fecha de fin de la recurrencia. Si se deja vacía, la recurrencia es **indefinida**. |
 
-[CAPTURA: recurrencia_configuracion.png]
+![Recurrencia configuracion](imagenes/web/11_recurrencias/recurrencia_configuracion.png)
 
 Al guardar, Delego genera automáticamente una tarea en cada fecha de la serie, conservando los demás datos (cliente, tipo de tarea, equipo, ítems, etc.) de la tarea base.
 
@@ -29,7 +29,7 @@ Al guardar, Delego genera automáticamente una tarea en cada fecha de la serie, 
 
 Para administrar todas las recurrencias en un solo lugar: menú lateral → **Tareas** → panel lateral **Tareas Recurrentes** (pestaña en el borde derecho). Se abre **Configuración de Tareas Recurrentes**.
 
-[CAPTURA: recurrencias_listado.png]
+![Recurrencias listado](imagenes/web/11_recurrencias/recurrencias_listado.png)
 
 El listado muestra una fila por recurrencia con: **Orden ID, Descripción de la tarea, Sitio de Recolección, Cliente, Recurrencia** (frecuencia, ej. "FRECUENCIA: ANUAL(1)"), **Tipo de Tarea, Equipo, Agente, Inicio de recurrencia, Finalización de recurrencia** y un **indicador de estado** por color.
 
@@ -47,7 +47,7 @@ El botón **Tareas planificadas** abre un modal con el horizonte de generación,
 
 Cada pestaña muestra **cuántas** recurrencias caen en ese rango y las **fechas exactas** de las tareas que se crearán.
 
-[CAPTURA: recurrencias_tareas_planificadas.png]
+![Recurrencias tareas planificadas](imagenes/web/11_recurrencias/recurrencias_tareas_planificadas.png)
 
 > 💡 **Tip:** Revisa "próximos 7/30 días" antes de un periodo crítico (ej. fin de mes) para anticipar la carga de tareas que el sistema generará y planificar recursos.
 

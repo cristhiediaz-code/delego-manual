@@ -23,13 +23,13 @@ El **Tipo de Tarea** es la clasificación que define la naturaleza del trabajo q
 1. En el menú lateral, haz clic en **Configuraciones**.
 2. Selecciona **Tipos de Tareas**.
 
-[CAPTURA: menu_configuraciones_tipos_tareas.png]
+![Menu configuraciones tipos tareas](imagenes/web/03_01_tipos_tarea/menu_configuraciones_tipos_tareas.png)
 
 > 💡 **Tip:** Si es tu primera vez en el módulo, verás un diagrama de bienvenida que explica los tres conceptos (Actividad, Formulario, Habilidades). Puedes volver a verlo en cualquier momento con el botón **?** de la esquina superior derecha; para regresar al listado haz clic en **«**.
 
 ## El listado de tipos de tarea
 
-[CAPTURA: listado_tipos_tareas.png]
+![Listado tipos tareas](imagenes/web/03_01_tipos_tarea/listado_tipos_tareas.png)
 
 La pantalla principal muestra una tabla con todos tus tipos de tarea:
 
@@ -69,7 +69,7 @@ La pantalla principal muestra una tabla con todos tus tipos de tarea:
 | **Estatus** | ✅ | **ACTIVO** o **INACTIVO**. Define si el tipo de tarea está disponible: si está Inactivo, no aparecerá como opción en formularios ni en cargas masivas. |
 | **Habilidades** | Opcional | Selección múltiple con buscador. Solo los agentes o vehículos que posean estas habilidades serán considerados elegibles para tareas de este tipo. |
 
-[CAPTURA: modal_detalle_tipo_tarea.png]
+![Modal detalle tipo tarea](imagenes/web/03_01_tipos_tarea/modal_detalle_tipo_tarea.png)
 
 3. (Opcional) Agrega los **ítems** del tipo de tarea (ver siguiente apartado).
 4. Haz clic en **Guardar**. Verás brevemente la pantalla "Guardando los datos…" y luego el mensaje **"¡Datos guardados exitosamente!"**. El nuevo tipo aparece de inmediato en el listado.
@@ -91,7 +91,7 @@ Los ítems son los componentes que el agente gestiona dentro de la tarea (produc
 3. Haz clic en **Guardar** del sub-modal. El ítem aparece en la grilla con el formato `código - nombre`.
 4. Repite para cada ítem que necesites.
 
-[CAPTURA: submodal_item_tipo_tarea.png]
+![Submodal item tipo tarea](imagenes/web/03_01_tipos_tarea/submodal_item_tipo_tarea.png)
 
 > ⚠️ **Advertencia:** Agregar ítems a la grilla **no guarda todavía el tipo de tarea**. Cuando termines de agregar ítems, haz clic en **Guardar** del modal principal. Si cierras con **Cancelar** o con la **X**, perderás los cambios.
 
@@ -114,7 +114,7 @@ Cada ítem de la grilla tiene sus propios botones de **Editar** (lápiz) y **Eli
 4. Selecciona tu archivo con **Seleccione el Archivo**.
 5. Haz clic en **Importar Items de Tipo de Tareas**.
 
-[CAPTURA: modal_carga_masiva_items.png]
+![Modal carga masiva items](imagenes/web/03_01_tipos_tarea/modal_carga_masiva_items.png)
 
 > 📝 **Nota:** Los encabezados de la plantilla están en inglés (Code, Item) aunque la plataforma esté en español; consérvalos tal cual para que la importación funcione.
 
